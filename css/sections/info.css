@@ -1,0 +1,59 @@
+.info {
+    background-color: #343d33;
+    padding-bottom: 96px;   
+    position: relative;
+}
+
+.info__content {
+    margin-left: 700px;
+
+}
+.info__title {
+    padding-top: 96px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white
+    
+}
+.info__text {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
+}
+
+
+.info__pic {
+    margin-top: -300px;
+    width: 534px;
+    min-height: 354px;
+    z-index: 9;
+}
+.info__card {
+    margin-top: 80px;
+    width: 1040px;
+    min-height: 409px;
+    z-index: 10;
+}
+
+
+.info__btns {
+    display: flex;
+    width: 185px;
+    padding-top: 10px;
+    height: 56px;
+}
+
+.info__flower {
+    position: absolute;
+    margin-bottom: 40px;
+    width: 650px;
+    min-height: auto;
+    background-size: cover;
+    right: 0;
+    bottom: 248px;
+
+}
